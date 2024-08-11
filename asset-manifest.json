@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wordGuess/static/css/main.fe54e2ae.css",
+    "main.js": "/wordGuess/static/js/main.12638ab4.js",
+    "static/media/cubone.png": "/wordGuess/static/media/cubone.c8620da3e0dab29d4065.png",
+    "static/media/meowth.png": "/wordGuess/static/media/meowth.eac4a0e9182a060ca14a.png",
+    "static/media/bulbasaur.png": "/wordGuess/static/media/bulbasaur.1e600522d24820d340e0.png",
+    "static/media/pokeball.png": "/wordGuess/static/media/pokeball.69ed36cb9837ba69d768.png",
+    "static/media/squirtle.png": "/wordGuess/static/media/squirtle.5388128ffd4b2bdaf811.png",
+    "static/media/charmander.png": "/wordGuess/static/media/charmander.5bc6e242ca7f08669530.png",
+    "static/media/abra.png": "/wordGuess/static/media/abra.b9d4566d5f3d1213e7e5.png",
+    "static/media/pikachu.png": "/wordGuess/static/media/pikachu.0cf914699137b5d42986.png",
+    "static/media/sandshrew.png": "/wordGuess/static/media/sandshrew.2c58d781f34738c24a6a.png",
+    "index.html": "/wordGuess/index.html",
+    "main.fe54e2ae.css.map": "/wordGuess/static/css/main.fe54e2ae.css.map",
+    "main.12638ab4.js.map": "/wordGuess/static/js/main.12638ab4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe54e2ae.css",
+    "static/js/main.12638ab4.js"
+  ]
+}
