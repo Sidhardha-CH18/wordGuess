@@ -1,0 +1,76 @@
+.body
+{
+    overflow: visible;
+    }
+.opt{
+    color: white;
+    width: max-content;
+    padding: 1vh 1.5vw;
+    text-align: center;
+    border-width: 5px;
+    margin: 2vh auto;
+    border-style: groove;
+    border-color:white;
+    display: block;
+    font-weight: bolder;
+    font-size: 4vh;
+}
+
+
+.list{
+    border: none;
+    width: max-content;
+    display: grid;
+    column-gap: 3vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+
+.optList{
+    width: 20vh;
+    padding: 1vh 1.5vw;
+    border-style: double;
+    border-width: 5px; 
+    border-color: white;
+    margin: 3.5vh auto;
+    text-align: center;
+
+    font-weight: normal;
+    font-size: 3vh;
+}
+.timer{
+    margin: 1vh auto;
+    border: solid;
+    border-width: 5px;
+    color: white;
+    border-color: white;
+    display: block;
+    width: 70px;
+    text-align: center;
+    height: 70px;
+    border-radius: 35px;
+}
+.next,.yes,.no{
+display: block;
+margin: 0 auto;
+border-radius: 1vh;
+border-width: 3px;
+border: solid none;
+border-color: white;
+background-color: black;
+font-weight: bold;
+cursor: pointer;
+padding: 1vh 4vw;
+font-size: 3vh;
+color: rgb(255, 255, 255);
+}
+.next:hover,.yes:hover,.no:hover{
+    transition: 1.8s;
+    color: black;
+    background-color: white;
+    }
+.next:active,.yes:active,.no:active{
+    transition: 0.5s;
+    font-size: 2vh
+}

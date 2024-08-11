@@ -1,0 +1,107 @@
+ .answer{
+    background-color: white;
+    border: double white;
+    font-weight: normal;
+    text-align: center;
+    width: 20vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2.5vh auto 0 auto;
+    color: black;
+    font-size: 4vh;
+    }
+
+@keyframes animate1
+{
+0%{
+    filter: hue-rotate(0deg);
+}
+100%{
+    filter: hue-rotate(360deg);
+}
+}
+@keyframes animate2
+{
+0%{
+    transform: rotateY(0deg);
+    
+}
+100%{
+    transform: rotateY(90deg);
+}
+}
+@keyframes animate3
+{
+0%{
+    transform: rotateY(90deg);
+    
+}
+100%{
+    transform: rotateY(180deg);
+}
+}
+.answerCard,.pokeCard{
+    background-color: white;
+    text-align: center;
+    margin: 4vh auto;
+    border-radius: 21px;
+    border:  6px double black;
+    cursor: pointer;
+    width: max-content;
+    padding: 16.5vh 2vw; 
+}
+
+.answerImage,.pokemon{
+    width: 22vh;
+    margin: auto;
+}
+.answerCard{
+    text-align: center;
+    padding: 0 2vw; 
+    display: flex;
+    flex-direction: column;
+
+}
+.answer{
+  width: max-content;
+}
+.answerCard>*{
+    padding: 0.84vh 0;
+    border: solid;
+    margin: 0;
+    border-width: 0 0 2px 0;
+}
+p{
+   font-size: 2vh;
+
+}
+img{
+    animation: animate1 2.3s linear infinite;
+ }
+span{
+
+    font-size: 3vh;
+    font-weight: bolder;
+}
+.restart{
+    display: none;
+    margin: 0 auto;
+    border-radius: 1vh;
+    border-width: 3px;
+    border: solid none;
+    border-color: white;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1vh 1vw;
+    font-size: 3vh;
+    color: rgb(255, 255, 255);
+}
+.restart:hover{
+    transition: 1.8s;
+    color: black;
+    background-color: white
+    }
+.restart:active{
+    transition: 0.5s;
+    font-size: 2vh;
+}

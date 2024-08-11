@@ -1,0 +1,22 @@
+.listnext{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.button{
+width: min-content;
+display: flex;
+margin: 0 auto;
+flex-wrap: nowrap;
+gap: 2vw;
+flex-direction: row;
+}
+.heading{
+    margin-top: 3%;
+}
+.no,.yes{
+    margin-left: 0%;
+}
+.optList{
+    padding: 1vh 3vw;
+    width:max-content;
+}
